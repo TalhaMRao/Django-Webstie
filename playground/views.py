@@ -10,5 +10,5 @@ def calculate():
 
 # Create your views here.
 def say_hello(request):
-    x = calculate
+    x = calculate()
     return render(request, "hello.html", {"name": "Talha"})
